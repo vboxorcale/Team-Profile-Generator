@@ -48,7 +48,7 @@ const appMenu =()=>{
         }
 
       ]).then(answers => {
-         const intern = new Intern(answers.interName, answers.internId, answers.internEmail, answers.internSchool);
+         const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internSchool);
          teamMembers.push(intern);
          idList.push(answers.internId);
          //console.log(intern);
